@@ -47,7 +47,7 @@
 	</select>
 
 	<update id="updateStartTime" parameterType="cn.springmvc.mybatis.entity.simple.ImportExcel">
-		update t_import_excel
+		update T_IMPORT_EXCEL
 		set start_date = end_date,
 		start_time = str_to_date(
 		concat(end_date, ' 09:00:00'),
@@ -59,7 +59,7 @@
 	</update>
 
 	<update id="updateEndTime" parameterType="cn.springmvc.mybatis.entity.simple.ImportExcel">
-		update t_import_excel
+		update T_IMPORT_EXCEL
 		set end_date = start_date,
 		end_time = str_to_date(
 		concat(start_date, ' 18:00:00'),
@@ -75,7 +75,7 @@
 	</update>
 
 	<update id="updateEndTimeByWeekend" parameterType="cn.springmvc.mybatis.entity.simple.ImportExcel">
-		update t_import_excel
+		update T_IMPORT_EXCEL
 		set end_date = start_date,
 		end_time = str_to_date(
 		concat(start_date, ' 00:00:00'),

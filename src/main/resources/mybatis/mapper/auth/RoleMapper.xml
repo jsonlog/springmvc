@@ -28,7 +28,7 @@
 
 	<sql id="from_xxx">
 	    <![CDATA[
-	    	from t_sys_role
+	    	from T_SYS_ROLE
 	    ]]>
 	</sql>
 

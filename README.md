@@ -1,3 +1,11 @@
+<!-- sed -i '' s/"t_news"/"T_NEWS"/g `grep -rl "t_news" --include=*.xml ./`
+sed -i '' s/"t_sys_permission"/"T_SYS_PERMISSION"/g `grep -rl "t_sys_permission" --include=*.xml ./`
+sed -i '' s/"t_sys_role"/"T_SYS_ROLE"/g `grep -rl "t_sys_role_permission" --include=*.xml ./`
+sed -i '' s/"t_sys_role_permission"/"T_SYS_ROLE_PERMISSION"/g `grep -rl "t_sys_role_permission" --include=*.xml ./`
+sed -i '' s/"t_sys_user"/"T_SYS_USER"/g `grep -rl "t_sys_user" --include=*.xml ./`
+sed -i '' s/"t_sys_user_role"/"T_SYS_USER_ROLE"/g `grep -rl "t_sys_user_role" --include=*.xml ./`
+sed -i '' s/"d_open_survey"/"D_OPEN_SURVEY"/g `grep -rl "d_open_survey" --include=*.xml ./`
+sed -i '' s/"t_import_excel"/"T_IMPORT_EXCEL"/g `grep -rl "t_import_excel" --include=*.xml ./` -->
 # springmvc 介绍 #
 
 <pre>它是一个典型的MVC三层框架示例工程，快速简单的上手。</pre>
@@ -36,4 +44,4 @@
 > 用户组织权限相关表关系很简历，表之间的关联关系，可以看cn.springmvc.mybatis.init.InitServiceTest.[testInit()](src/test/java/cn/springmvc/mybatis/init/InitServiceTest.java)方法执行的步骤，这块就没有单独写页面来操作了
 
 
-[GitHub](https://github.com/wangxinforme) [issues](https://github.com/wangxinforme/springmvc/issues)
+[GitHub](https://github.com/jsonlog) [issues](https://github.com/wangxinforme/springmvc/issues)
