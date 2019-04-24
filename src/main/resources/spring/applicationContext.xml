@@ -13,7 +13,8 @@
 		<property name="ignoreResourceNotFound" value="true" />
 		<property name="locations">
 			<list>
-				<value>classpath:constants/constants.properties</value>
+				<!-- <value>classpath:constants/constants.properties</value> TODO-->
+				<value>classpath:config/constants.properties</value>
 			</list>
 		</property>
 	</bean>
