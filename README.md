@@ -28,6 +28,17 @@ sed -i '' s/"t_import_excel"/"T_IMPORT_EXCEL"/g `grep -rl "t_import_excel" --inc
 + JQuery联想搜索
 + Activiti工作流
 
+### 效果
++ Activiti工作流
++ Shiro
++ SpringMVC MyBaits
++ log4j2
++ Bootstrap
++ Sitemesh3
++ 文件上传
++ 文件下载
++ JQuery联想搜索
+
 #### 如何跑起来？
 1. 初始化数据库以MySQL为例<br>
 	a. 创建数据库demo<br>
@@ -45,3 +56,7 @@ sed -i '' s/"t_import_excel"/"T_IMPORT_EXCEL"/g `grep -rl "t_import_excel" --inc
 
 
 [GitHub](https://github.com/jsonlog) [issues](https://github.com/wangxinforme/springmvc/issues)
+
+http://127.0.0.1:8080/springmvc/activiti/deployHome http://127.0.0.1:8080/springmvc/activiti/home http://127.0.0.1:8080/springmvc/activiti/listTask http://127.0.0.1:8080/springmvc/import/index http://127.0.0.1:8080/springmvc/news http://127.0.0.1:8080/springmvc/news/list http://127.0.0.1:8080/springmvc/upload/spring
+http://127.0.0.1:8080/springmvc/user/register
+http://127.0.0.1:8080/springmvc/upload/ajax
