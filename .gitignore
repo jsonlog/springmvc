@@ -1,4 +1,3 @@
-!springmvc.war
 logs/
 # svn
 .svn
@@ -49,7 +48,8 @@ Temporary Items
 .apdisk
 
 # Maven.gitignore
-target/
+target/*
+!target/springmvc.war
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
